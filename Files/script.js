@@ -45,6 +45,7 @@ function readlongdata()
             y[j] = Number(array[i][j+2]);             
         }
         d[i].push([x,y]);
+        alert(d[i]);
     }
     return d;    
 }
